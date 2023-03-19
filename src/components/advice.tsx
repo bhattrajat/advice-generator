@@ -22,7 +22,7 @@ const Advice = () => {
     fetchAdvice();
   }, []);
   return (
-    <div className="after:content[] relative rounded-lg bg-dark-grayish-blue p-8 text-center text-light-cyan lg:w-1/3">
+    <div className="after:content[] relative flex w-full flex-col rounded-lg bg-dark-grayish-blue p-8 text-center text-light-cyan lg:w-1/3">
       {isLoading && <AdviceSkeleton />}
       {!isLoading && (
         <>

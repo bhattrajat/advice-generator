@@ -1,9 +1,9 @@
 const AdviceSkeleton = () => {
   return (
-    <div className="animate-pulse flex flex-col items-center justify-center">
-      <h1 className="h-4 bg-gray-200 rounded-full dark:bg-gray-700 w-40 mb-2.5" />
-      <h2 className="h-7 bg-gray-200 rounded-lg dark:bg-gray-700 w-full mb-2.5" />
-      <h2 className="h-7 bg-gray-200 rounded-lg dark:bg-gray-700 w-full mb-2.5" />
+    <div className="w-full animate-pulse">
+      <h1 className="mb-2.5 h-4 w-full flex-shrink-0 rounded-full bg-gray-200 dark:bg-gray-700 lg:w-40" />
+      <h2 className="mb-2.5 h-7 w-full flex-shrink-0 rounded-lg bg-gray-200 dark:bg-gray-700" />
+      <h2 className="mb-2.5 h-7 w-full flex-shrink-0 rounded-lg bg-gray-200 dark:bg-gray-700" />
     </div>
   );
 };
