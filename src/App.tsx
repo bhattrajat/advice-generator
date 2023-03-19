@@ -2,10 +2,8 @@ import { useState } from 'react';
 import Advice from './components/advice';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <main className="flex h-screen w-screen items-center justify-center bg-dark-blue">
+    <main className="flex h-screen w-screen items-center justify-center bg-dark-blue p-4">
       <Advice />
     </main>
   );
