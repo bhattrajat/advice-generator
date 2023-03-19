@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Advice from './components/advice';
 
 function App() {
