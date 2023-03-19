@@ -40,7 +40,7 @@ const Advice = () => {
       <div className="flex items-center justify-center">
         <button
           onClick={fetchAdvice}
-          className="absolute -bottom-6 flex h-12 w-12 items-center justify-center rounded-full bg-neon-green hover:shadow-[0_0_40px_5px] hover:shadow-neon-green"
+          className="absolute -bottom-6 flex h-12 w-12 items-center justify-center rounded-full bg-neon-green shadow-none lg:hover:shadow-[0_0_40px_5px] lg:hover:shadow-neon-green"
         >
           <span className="sr-only">Generate</span>
           <img alt="" src={diceLogo} />
