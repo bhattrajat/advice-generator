@@ -42,7 +42,8 @@ const Advice = () => {
           onClick={fetchAdvice}
           className="absolute -bottom-6 flex h-12 w-12 items-center justify-center rounded-full bg-neon-green hover:shadow-[0_0_40px_5px] hover:shadow-neon-green"
         >
-          <img src={diceLogo} />
+          <span className="sr-only">Generate</span>
+          <img alt="" src={diceLogo} />
         </button>
       </div>
     </div>
