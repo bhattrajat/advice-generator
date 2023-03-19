@@ -5,7 +5,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="h-screen w-screen flex justify-center items-center bg-dark-grayish-blue">
+    <div className="flex h-screen w-screen items-center justify-center bg-dark-blue">
       <Advice />
     </div>
   );

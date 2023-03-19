@@ -22,22 +22,22 @@ const Advice = () => {
     fetchAdvice();
   }, []);
   return (
-    <div className="after:content[] relative w-1/3 rounded-lg bg-grayish-blue p-6 text-center text-light-cyan">
+    <div className="after:content[] relative w-1/3 rounded-lg bg-dark-grayish-blue p-8 text-center text-light-cyan">
       {isLoading && <AdviceSkeleton />}
       {!isLoading && (
         <>
-          <h1 className="uppercase text-neon-green">{`Advice #${advice?.slip.id}`}</h1>
+          <h1 className="mb-4 uppercase text-neon-green">{`Advice #${advice?.slip.id}`}</h1>
           <h2 className="text-[28px] before:content-['“'] after:content-['”']">
             {advice?.slip.advice}
           </h2>
         </>
       )}
-      <div className="mt-2 flex items-center">
+      <div className="my-8 flex items-center">
         <hr className="flex-grow" />
         <div className="mx-2 h-4 rounded-sm border-x-4 border-light-cyan p-1" />
         <hr className="flex-grow" />
       </div>
-      <div className="mt-2 flex items-center justify-center">
+      <div className="flex items-center justify-center">
         <button
           onClick={fetchAdvice}
           className="absolute -bottom-6 flex h-12 w-12 items-center justify-center rounded-full bg-neon-green hover:shadow-[0_0_40px_5px] hover:shadow-neon-green"
